@@ -50,7 +50,7 @@ repeat wait()
 		plr.Character.Humanoid.PlatformStand = false 
 	end 
 	mouse.KeyDown:connect(function(key) 
-		if key:lower() == "q" then 
+		if key:lower() == "x" then 
 			if flying then flying = false 
 			else 
 				flying = true 
